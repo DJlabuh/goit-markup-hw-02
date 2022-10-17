@@ -1,0 +1,107 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196F3;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --footer-color: #2F303A;
+  --button-color: #F5F4FA;
+}
+
+body {
+  color: var(--title-text-color);
+  background-color: var(--white-color);
+}
+.list {
+  list-style: none;
+}
+
+/* Sections */
+
+.section-title {
+  color: var(--primary-text-color);
+}
+
+/* Header */
+
+.logo {
+  color: var(--black-color);
+}
+.logo-start {
+  color: var(--accent-color);
+}
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+.contacts .link {
+  color: var(--title-text-color);
+}
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero {
+  background-color: var(--footer-color);
+}
+.hero-title {
+  color: var(--white-color);
+}
+.hero-btn {
+}
+
+/* Features */
+
+.features .title {
+  color: var(--primary-text-color);
+}
+
+/* Command */
+
+.command .title {
+  color: var(--primary-text-color);
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--footer-color);
+}
+.address .title {
+  color: var(--white-color);
+}
+.address .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Button */
+
+.button {
+
+}
+.button.primary {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+.button.secondary {
+  color: var(--primary-text-color);
+  background-color: var(--button-color);
+}
+
+/* Filter */
+
+.project .title {
+  color: var(--primary-text-color);
+}
+.project .product {
+  color: var(--title-text-color);
+}

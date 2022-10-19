@@ -103,13 +103,16 @@ body {
 
 /* Command */
 
-.command .title {
+.command {
+  background-color: var(--button-color);
+}
+.command-info .title {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
 }
-.command .text {
+.command-info .text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
